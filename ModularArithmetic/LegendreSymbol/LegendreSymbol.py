@@ -9,7 +9,7 @@ def isEquivalent(a: int, b: int, p: int):
     return (a % p) == (b % p)
 
 def Legendre(a,p):
-    """Legendre's symbol: (a/p) === a^( (p-1)/2 ) mod p"""
+    """Legendre's symbol: (a|p) === a^( (p-1)/2 ) mod p"""
 
     return pow(a, ( (p-1)//2 ), p)
 
